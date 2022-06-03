@@ -3,7 +3,7 @@ const removeFromArray = function(...args) {
     let newArr = []
 
     array.forEach(e => {
-        if (!e.includes(args)) {
+        if (!args.includes(e)) {
             newArr.push(e)
         }
     })
