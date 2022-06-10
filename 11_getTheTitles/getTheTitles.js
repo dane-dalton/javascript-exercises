@@ -1,5 +1,5 @@
-const getTheTitles = function(obj) {
-    return obj.map((book) => book.title)
+const getTheTitles = function(arr) {
+    return arr.map((book) => book.title)
 };
 
 // Do not edit below this line
